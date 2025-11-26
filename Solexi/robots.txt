@@ -1,0 +1,184 @@
+# robots.txt pour Solexi.ai
+# Optimisé pour SEO traditionnel + Intelligence Artificielle (IA)
+# Date: 26 Novembre 2024
+
+# === RÈGLES GÉNÉRALES ===
+User-agent: *
+Allow: /
+
+# Pages principales EN
+Allow: /index.html
+Allow: /personal.html
+Allow: /museums.html
+Allow: /celebrities.html
+Allow: /how-it-works.html
+
+# Pages principales FR
+Allow: /fr/
+
+# Ressources statiques
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Interdictions
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*utm_*
+Disallow: /*?*session*
+
+# === SITEMAPS ===
+Sitemap: https://solexi.ai/sitemap.xml
+Sitemap: https://solexi.ai/sitemap-images.xml
+
+# === BOTS MOTEURS DE RECHERCHE TRADITIONNELS ===
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# === BOTS INTELLIGENCE ARTIFICIELLE (PRIORITAIRE) ===
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: OAI-SearchBot
+Allow: /
+Crawl-delay: 0
+
+# Anthropic (Claude)
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+# Google AI (Gemini, Bard)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: GoogleOther
+Allow: /
+Crawl-delay: 0
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+# Meta AI (Facebook/Instagram AI)
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: meta-externalagent
+Allow: /
+Crawl-delay: 1
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+Crawl-delay: 1
+
+# Common Crawl (training data pour IA)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+# Diffbot (AI web extraction)
+User-agent: Diffbot
+Allow: /
+Crawl-delay: 1
+
+# Applebot (Siri, Apple Intelligence)
+User-agent: Applebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 0
+
+# Amazon (Alexa)
+User-agent: Amazonbot
+Allow: /
+Crawl-delay: 1
+
+# ByteDance (TikTok AI)
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 2
+
+# Yandex AI
+User-agent: YandexGPT
+Allow: /
+Crawl-delay: 2
+
+# === BOTS SEO & ANALYTICS ===
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 10
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 10
+
+# === BOTS SOCIAL MEDIA ===
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# === CRAWL DELAY PAR DÉFAUT ===
+User-agent: *
+Crawl-delay: 2
+
+# === NOTES POUR LES IA ===
+# Ce site est optimisé pour l'indexation par les IA conversationnelles
+# Contenu structuré avec Schema.org (Organization, FAQPage, HowTo)
+# Données accessibles en JSON via APIs publiques
+# Priorité: ChatGPT, Claude, Gemini, Perplexity

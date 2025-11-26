@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage - English (Default) -->
+    <url>
+        <loc>https://solexi.ai/</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://solexi.ai/"/>
+    </url>
+    
+    <!-- Homepage - French -->
+    <url>
+        <loc>https://solexi.ai/fr/</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/"/>
+    </url>
+    
+    <!-- Personal - English -->
+    <url>
+        <loc>https://solexi.ai/personal.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/personal.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/personne.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://solexi.ai/personal.html"/>
+    </url>
+    
+    <!-- Personal - French -->
+    <url>
+        <loc>https://solexi.ai/fr/personne.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/personal.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/personne.html"/>
+    </url>
+    
+    <!-- Museums - English -->
+    <url>
+        <loc>https://solexi.ai/museums.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/museums.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/musee.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://solexi.ai/museums.html"/>
+    </url>
+    
+    <!-- Museums - French -->
+    <url>
+        <loc>https://solexi.ai/fr/musee.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/museums.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/musee.html"/>
+    </url>
+    
+    <!-- Celebrities - English -->
+    <url>
+        <loc>https://solexi.ai/celebrities.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/celebrities.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/vedette.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://solexi.ai/celebrities.html"/>
+    </url>
+    
+    <!-- Celebrities - French -->
+    <url>
+        <loc>https://solexi.ai/fr/vedette.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/celebrities.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/vedette.html"/>
+    </url>
+    
+    <!-- How It Works - English -->
+    <url>
+        <loc>https://solexi.ai/how-it-works.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/how-it-works.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/comment-ca-marche.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://solexi.ai/how-it-works.html"/>
+    </url>
+    
+    <!-- How It Works - French -->
+    <url>
+        <loc>https://solexi.ai/fr/comment-ca-marche.html</loc>
+        <lastmod>2025-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://solexi.ai/how-it-works.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://solexi.ai/fr/comment-ca-marche.html"/>
+    </url>
+    
+</urlset>
