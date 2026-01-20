@@ -350,12 +350,18 @@
     </footer>
 
     <script src="../js/main.js"></script>
-    <script>
+   <script>
   (function () {
     const form = document.getElementById('prelaunchForm');
     if (!form) return;
 
-    form.addEventListener('submit', function () {
+    form.addEventListener('submit', function (e) {
+      const honeypot = form.querySelector('input[name="company"]');
+      if (honeypot && honeypot.value.trim() !== '') {
+        e.preventDefault();
+        return;
+      }
+
       const btn = form.querySelector('button[type="submit"]');
       if (btn) {
         btn.disabled = true;
@@ -364,6 +370,7 @@
     });
   })();
 </script>
+
 
 
 </body>
