@@ -136,12 +136,13 @@
         <div class="hero-content">
             <h1 class="hero-title">Préserver l'essentiel.<br>Pour l'éternité.</h1>
             <p class="hero-subtitle">Une plateforme de préservation numérique pour ceux qui souhaitent laisser une trace significative.</p>
-            <form action="/merci.html" method="GET" class="prelaunch-form">
-            <input type="email" name="email" placeholder="Votre adresse email" required>
-            <button type="submit">Accès prioritaire au lancement</button>
-                <p class="prelaunch-note">Inscription à la liste d’accès prioritaire.</p>
-
+            <form id="prelaunchForm" action="/merci.html" method="GET" class="prelaunch-form">
+            <input type="email" name="email" placeholder="Your email address" required>
+            <button type="submit">Get early access</button>
             </form>
+
+            <p class="prelaunch-note">Join the early access list.</p>
+
 
             <div class="hero-stats">
                 <div class="stat-item">
@@ -341,5 +342,20 @@
     </footer>
 
     <script src="../js/main.js"></script>
+    <script>
+  (function () {
+    const form = document.getElementById('prelaunchForm');
+    if (!form) return;
+
+    form.addEventListener('submit', function () {
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+      }
+    });
+  })();
+</script>
+
 </body>
 </html>
