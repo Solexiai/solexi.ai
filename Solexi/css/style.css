@@ -24,13 +24,7 @@
     --color-medium-gray: #E0E0E0;
     --color-dark-gray: #424242;
 
-   .hp-field {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
+
 
     --color-black: #1A1A1A;
     
@@ -1325,3 +1319,13 @@ section {
         height: 250px;
     }
 }
+
+/* Honeypot anti-bot (hidden field) */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
