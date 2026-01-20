@@ -137,11 +137,17 @@
             <h1 class="hero-title">Préserver l'essentiel.<br>Pour l'éternité.</h1>
             <p class="hero-subtitle">Une plateforme de préservation numérique pour ceux qui souhaitent laisser une trace significative.</p>
             <form id="prelaunchForm" action="/merci.html" method="GET" class="prelaunch-form">
-            <input type="email" name="email" placeholder="Your email address" required>
-            <button type="submit">Get early access</button>
-            </form>
+  <input
+    type="email"
+    name="email"
+    placeholder="Votre adresse email"
+    required
+  >
+  <button type="submit">Accès prioritaire au lancement</button>
+</form>
 
-            <p class="prelaunch-note">Join the early access list.</p>
+<p class="prelaunch-note">Inscription à la liste d’accès prioritaire.</p>
+
 
 
             <div class="hero-stats">
@@ -351,11 +357,12 @@
       const btn = form.querySelector('button[type="submit"]');
       if (btn) {
         btn.disabled = true;
-        btn.textContent = 'Submitting...';
+        btn.textContent = 'Envoi…';
       }
     });
   })();
 </script>
+
 
 </body>
 </html>
