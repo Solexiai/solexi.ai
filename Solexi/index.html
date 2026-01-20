@@ -183,14 +183,15 @@
     <!-- Hero Section -->
     <section class="hero-home">
         <div class="hero-content">
-            <h1 class="hero-title">Preserve what matters.<br>For eternity.</h1>
-            <p class="hero-subtitle">A digital preservation platform for those who want to leave a meaningful trace.</p>
-            <form action="/merci.html" method="GET" class="prelaunch-form">
-            <input type="email" name="email" placeholder="Your email address" required>
-            <button type="submit">Get early access</button>
-                <p class="prelaunch-note">Join the early access list.</p>
+           <h1 class="hero-title">Preserve what matters.<br>For eternity.</h1>
+           <p class="hero-subtitle">A digital preservation platform for those who want to leave a meaningful trace.</p>
+           <form id="prelaunchForm" action="/merci.html" method="GET" class="prelaunch-form">
+           <input type="email" name="email" placeholder="Your email address" required>
+           <button type="submit">Get early access</button>
+           </form>
 
-            </form>
+           <p class="prelaunch-note">Join the early access list.</p>
+
 
             <div class="hero-stats">
                 <div class="stat-item">
@@ -390,5 +391,21 @@
     </footer>
 
     <script src="js/main.js"></script>
+
+    <script>
+  (function () {
+    const form = document.getElementById('prelaunchForm');
+    if (!form) return;
+
+    form.addEventListener('submit', function () {
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = 'Submitting...';
+      }
+    });
+  })();
+</script>
+
 </body>
 </html>
